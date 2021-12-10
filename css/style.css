@@ -1,0 +1,43 @@
+body {
+    background-color: #1D1D1D;
+}
+
+h1 {
+    color: #DFDFDF;
+    margin-top: 8px;
+}
+
+button {
+    width: 91px;
+    height: 28px;
+    border-style: groove;
+    border-color: #EEE;
+    background-color: #EAE;
+    margin: 5px;
+    margin-top: 28px;
+}
+
+#toflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+    color: ivory;
+    padding-top: 5px;
+    margin-right: 8px;
+}
+
+input {
+    height: 27px;
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+    color: ivory;
+    border-color: lightcoral;
+    color: #000;
+}
