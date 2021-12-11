@@ -128,7 +128,9 @@
                             $reponse->closeCursor();
                         }
                         elseif(isset($_POST['delete'])) {
-                            $bdd->query("DELETE FROM contact$obj_of_req;");
+                            if ($obj_of_req != "") {
+                                $bdd->query("DELETE FROM contact$obj_of_req;");
+                            }
                         }
                         
                     }

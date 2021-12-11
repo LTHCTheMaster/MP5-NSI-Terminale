@@ -190,7 +190,9 @@
                                             }
                                         }
                                     }
-                                    $bdd->query("UPDATE contact$obj_of_req_c$obj_of_req;");
+                                    if ($obj_of_req != "") {
+                                        $bdd->query("UPDATE contact$obj_of_req_c$obj_of_req;");
+                                    }
                                 }
                                 
                             }
